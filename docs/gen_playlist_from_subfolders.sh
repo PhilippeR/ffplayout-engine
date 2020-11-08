@@ -21,7 +21,7 @@ src=$1
 
 listDate=$(date +%Y-%m-%d)
 
-trunk="/playlists/$(date +%Y)/$(date +%m)/"
+trunk="/home/ubuntu/ffplayout-engine/playlists/$(date +%Y)/$(date +%m)/"
 playlist="$listDate.json"
 
 [[ -d "$trunk" ]] || mkdir -p "$trunk"
